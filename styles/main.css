@@ -50,7 +50,7 @@ nav#main-nav { background-color: #F3CECD; }
 section { background-color: #FFFFFF; }
 
 #home-main-section, #home-content {
-  padding: 10px 2%;
+  padding: 0 2%;
 }
 
 /* Grid */
@@ -63,7 +63,7 @@ section {
   margin: 0 10em;
 }
 header {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 header ul {
   float: right;
@@ -75,8 +75,16 @@ nav#main-nav ul {
   margin: 0;
 }
 
+#main-nav {
+  clear: both;
+}
+
 nav#main-nav a {
   color: #6e1849;
+}
+
+section {
+  clear:both;
 }
 
 header ul li, footer ul li, ul#social li {
@@ -84,7 +92,6 @@ header ul li, footer ul li, ul#social li {
 }
 
 nav#authentication ul {
-  margin-top: -25px;
   padding: 0;
   margin-right: 12em;
 }
@@ -100,10 +107,10 @@ nav#authentication ul {
   -moz-border-radius-topright: 40px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
+  min-height: 150px;
 }
 
 #home-main-section h1{
-  width: 39%;
   float:left;
   margin-right: 1%;
 }
@@ -120,7 +127,6 @@ nav#authentication ul {
 
 #secondary-nav{
   float: right;
-  width: 59%;
   margin-left: 1%
   padding-top:5px;
   padding-bottom: 5px;
@@ -216,4 +222,10 @@ footer ul {
   text-align: center;
 }
 
+@media screen and (max-width:768px) {
+  section{
+    margin: 0 2em;
+  }
 
+  
+}
