@@ -100,7 +100,7 @@ nav#authentication ul {
   -moz-border-radius-topright: 40px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-
+}
 
 #home-main-section h1{
   width: 39%;
@@ -110,10 +110,12 @@ nav#authentication ul {
 
 #home-main-section h1 span:first-of-type {
   color: #6d308a;
+  display:block;
 }
 
 #home-main-section h1 span:last-of-type {
-  color: #e8178a
+  color: #e8178a;
+  display:block;
 }
 
 #secondary-nav{
