@@ -193,14 +193,24 @@ nav#authentication ul {
 }
 
 #home-left-col {
-  float:left;
-  width: 60%;
-  overflow: auto;
+  width: 57.5%;
+  margin-right: 2.5%;
 }
 
-#home-right-col{
+#home-right-col {
+  width: 37.5%;
+  margin-left: 2.5%;
+}
+
+.right-col{
   float: right;
-  width: 40%;
+  clear: right;
+  overflow: auto
+}
+
+.left-col {
+  float: left;
+  clear: left;
   overflow: auto;
 }
 
