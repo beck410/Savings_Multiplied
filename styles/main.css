@@ -70,11 +70,6 @@ header ul {
   list-style-type: none;
 }
 
-nav#main-nav ul {
-  float: none;
-  margin: 0;
-}
-
 #main-nav {
   clear: both;
 }
@@ -127,8 +122,8 @@ nav#authentication ul {
 
 #secondary-nav{
   float: right;
-  margin-left: 1%
-  padding-top:5px;
+  margin-left: 1%;
+  padding-top:30px;
   padding-bottom: 5px;
 }
 
@@ -138,14 +133,45 @@ nav#authentication ul {
   width: 24%;
 }
 
+#main-nav {
+  padding: 0 10em;
+}
+
 #main-nav ul{
-  padding: 0 14%;
+  text-align: justify;
+  float:left;
+  width: 70%;
+  margin: 0 2.5% 0 0;
+  padding: 10px 0 0 2%;
 }
 
 #main-nav li {
   width: auto;
-  margin: 5px 2%;
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
 }
+
+#main-nav .stretch {
+  display:inline-block;
+  width: 100%;
+}
+#main-nav form {
+  padding: 10px 2% 0 0;
+  float: right;
+  margin-left: 1%;
+}
+
+#main-nav input[type="text"] {
+  border-radius: 30px;
+}
+
+
+#main-nav form label, #main-nav input[type="submit"] {
+  display: none;
+}
+
+
 
 #home-content{
   border-bottom-left-radius: 40px;
@@ -253,7 +279,9 @@ footer ul {
     margin: 0 2em;
   }
 
-
+#main-nav {
+  padding: 0 2em;
+}
   #social li {
     width: 47.5%;
     padding:0;
