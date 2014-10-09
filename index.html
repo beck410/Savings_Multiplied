@@ -13,7 +13,7 @@
     <header>
       <nav id="authentication">
         <ul>
-          <li><a href="#">sign in</a></li>
+          <li id="sign-in"><a href="#">sign in</a></li>
 	  <li><span>|<span></li>
           <li><a href="#">sign up</a></li>
         </ul>
@@ -86,5 +86,53 @@
         </ul>
       </nav>
     </footer>
+	
+	<div class="login-modal">
+		<div class="lightbox"></div>
+		
+		<div class="login-form">
+			<form>
+				<label>Username</label>	
+				<input type="text" placeholder="username"/>
+				
+				<label>Password</label>
+				<input type="password" placeholder="password"/>
+			
+				<input type="submit" value="login" />
+				<input type="button" id="cancel" value="cancel" />	
+			</form>
+		</div>
+	</div>
   </body>
+  <script>
+  
+  	var loginModal = document.querySelector('.login-modal');
+	var lightbox = document.querySelector('.lightbox');
+	var cancelButton = document.querySelector("#cancel");
+	var signIn = document.querySelector('#sign-in');
+	
+	function hide(element) {
+		element.style.display="none";
+	}
+	
+	function show(element) {
+		element.style.display="block";
+	}
+	
+	lightbox.addEventListener( 'click', function(){
+		hide(loginModal);
+	})
+	
+	cancelButton.addEventListener( 'click', function(){ 
+		hide(loginModal);
+	})
+	
+	signIn.addEventListener('click', function(){
+		show(loginModal);
+	})
+	
+	
+	
+	
+  </script>
 </html>
