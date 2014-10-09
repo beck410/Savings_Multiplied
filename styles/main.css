@@ -115,9 +115,18 @@ nav#authentication ul {
   display:block;
 }
 
+#home-main-section h1 span:first-of-type:before {
+  content: "";
+  background: url('../images/pink_owl.png');
+}
+
 #home-main-section h1 span:last-of-type {
   color: #e8178a;
   display:block;
+}
+
+::-webkit-input-placeholder {
+  color:#F3CECD;
 }
 
 #secondary-nav{
