@@ -115,14 +115,33 @@ nav#authentication ul {
   display:block;
 }
 
-#home-main-section h1 span:first-of-type:before {
+.header-logo h1 span:first-of-type:before {
   content: "";
   background: url('../images/pink_owl.png');
 }
 
-#home-main-section h1 span:last-of-type {
+.header-logo h1 span:last-of-type {
   color: #e8178a;
   display:block;
+}
+
+.header-logo h1{
+  margin-left: 50px;
+  font-size: 2.5em;
+
+}
+
+.header-logo {
+  position: relative;
+  top: 5px;
+}
+
+.header-logo img {
+  position: absolute;
+}
+
+img#pink-owl {
+  top: 50px;
 }
 
 ::-webkit-input-placeholder {
@@ -224,7 +243,7 @@ nav#authentication ul {
 }
 
 #home-main-section h3 {
-  color: #78cacf;
+  color: #78cacf; 
 }
 
 #home-left-col {
