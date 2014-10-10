@@ -5,13 +5,12 @@
 /* Add | to footer links */
 /* Add tree image */
 /* add owl image */ 
-/* bold main-nav links */
+/* bold main-nav links */                                                                 
 /* search bar */
 
-cf:before,
-.cf:after {
-  content: "";
-  display: table;
+.cf:before, .cf:after {
+	content: "";
+	display: table;
 }
 
 .cf:after{
@@ -25,6 +24,12 @@ cf:before,
 body { 
   background-color: #69C4CC;
   font-family: 'Muli' sans-serif;
+}
+
+/* Typography */
+
+body{
+  font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
