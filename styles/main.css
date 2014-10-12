@@ -185,6 +185,11 @@ img#pink-owl {
   font-weight: bold;
 }
 
+#main-nav a {
+	font-size: 1.2em;
+	height: auto;
+}
+
 #main-nav .stretch {
   display:inline-block;
   width: 100%;
