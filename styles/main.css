@@ -256,6 +256,19 @@ img#pink-owl {
   margin-right: 2.5%;
 }
 
+#home-left-col button {
+	background-color:#EC008C;
+	border: none;
+	border-radius: 30px;
+	float: right;
+}
+
+img#home-tree {
+	float: right;
+	clear:both;
+	padding-top: 110px;
+}
+
 #home-right-col {
   width: 37.5%;
   margin-left: 2.5%;
