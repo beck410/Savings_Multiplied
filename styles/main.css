@@ -59,7 +59,9 @@ section { background-color: #FFFFFF; }
 }
 
 /* Grid */
-
+.hidden{
+	display:none;
+}
 footer {
   padding: 0 10em;
 }
@@ -171,11 +173,10 @@ img#pink-owl {
 }
 
 #main-nav ul{
-  text-align: justify;
   float:left;
   width: 70%;
   margin: 0 2.5% 0 0;
-  padding: 10px 0 0 2%;
+  padding: 5px;
 }
 
 #main-nav li {
@@ -183,15 +184,16 @@ img#pink-owl {
   margin: 0;
   font-family: 'Bree Serif', serif;
   font-weight: bold;
+	padding-left: 5%;
 }
 
 #main-nav a {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	height: auto;
 }
 
 #main-nav .stretch {
-  display:inline-block;
+  display:inline;
   width: 100%;
 }
 #main-nav form {
@@ -324,11 +326,6 @@ img#home-tree {
 
 footer ul {
   text-align: center;
-}
-
-
-.login-modal {
- display: none; 
 }
 
 .lightbox {
