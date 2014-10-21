@@ -304,7 +304,6 @@ img#home-tree {
 }
 
 #social li {
-  width: 24%;
   padding:0;
   height: auto;
   width: 20%;
@@ -312,14 +311,6 @@ img#home-tree {
   text-align: center;
 }
 
-#social li:nth-child(1){
-}
-
-#social li:nth-child(2){ 
-}
-
-#social li:nth-child(3){ 
-}
 #social li:nth-child(4){ 
   margin-right:0;
 }
@@ -345,6 +336,31 @@ footer ul {
 	 left: 50%;
 	 margin-left: -100px;
 	 background: #69C4CC;
+}
+
+/* --- Buy Page -*/
+#buy-content .left-col {
+  width: 27.5%; 
+  background-color: #ccc; 
+}
+
+#buy-content .right-col {
+  width: 67.5%;
+  margin-left: 5%; 
+  background-color: #ccc;
+}
+
+.product-items li{
+  width: 24%;
+  margin-right: 1%;
+  height: auto; 
+  padding: 0;
+  float: left;
+}
+
+.product-items li:nth-child(5n){
+  clear: left;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 768px) {
