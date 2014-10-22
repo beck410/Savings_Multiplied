@@ -1,5 +1,5 @@
-(function (){
-
+//sign in modal 
+document.addEventListener("DOMContentLoaded", function(event) {
   //Header Authentication Buttons   
   var loginModal = document.querySelector('.login-modal');
   var lightbox = document.querySelector('.lightbox');
@@ -10,7 +10,7 @@
 
   //EVENT LISTENERS
 
-  for (var i=0; i < loginModalToggleAreas.length; i++) {
+  for(var i=0; i < loginModalToggleAreas.length; i++) {
 	
 		loginModalToggleAreas[i].addEventListener('click', function() {
 		toggle(loginModal);
@@ -41,9 +41,8 @@
   	  element.className = classes.join(' ');
 	  }
   }
-})();
 
-(function (){
+//Creates list of products for buy.html
   //var 
   var $ul = document.querySelector('.product-items');
 
@@ -103,7 +102,7 @@
     var $spanOne = document.createElement('span')    
     var $spanTwo = document.createElement('span')
     //add inner text to span1
-    $spanOne.textContent = product.title + " " + product.price;
+    $spanOne.textContent = product.title + " $" + product.price;
     //add inner text to span2
     $spanTwo.textContent = product.seller + " " + product.remaining;
     //append span1 to p1 tag
@@ -115,8 +114,7 @@
 
     return docFrag;
   }
-})();
-
+});
 
 
 

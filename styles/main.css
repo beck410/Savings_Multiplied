@@ -341,13 +341,20 @@ footer ul {
 /* --- Buy Page -*/
 #buy-content .left-col {
   width: 27.5%; 
-  background-color: #ccc; 
+  background-color: #EDFAD1;
+  height: 800px;
+  border-radius: 30px
+}
+
+#buy-content {
+  padding: 10px 2%;
+  color: #729324;
 }
 
 #buy-content .right-col {
-  width: 67.5%;
-  margin-left: 5%; 
-  background-color: #ccc;
+  width: 70%;
+  margin-left: 2.5%; 
+  background-color: #fff;
 }
 
 .product-items li{
@@ -356,6 +363,7 @@ footer ul {
   height: auto; 
   padding: 0;
   float: left;
+  font-size: 80%;
 }
 
 .product-items li:nth-child(5){
@@ -364,6 +372,11 @@ footer ul {
 
 .product-items span {
   display: block;
+}
+
+.product-items img {
+  height: 120px;
+  width: 120px;
 }
 
 @media screen and (max-width: 768px) {
