@@ -54,9 +54,28 @@
 		</header>
 		<section id="buy-content" class="cf">
 			<div class="left-col">
-				<p>This is a left col</p>
+        <form>
+          <p>Limit your search by:</p>
+            <input id="product-search" type="test" name="product-search" />
+            <input type="submit" value="search"/>
+
+          <p>Condition:</p>
+            <label for="new-product">New</label>
+            <input type="radio" name="new-product" value="new-product" />
+            <label for="used-product">Gently Used</label>
+            <input type="radio" name="used-product" value="used-product" />
+        </form>
 			</div>
 			<div class="right-col">
+        <form>
+          <label for="product-filter">Sort by:</label>
+            <select name="product-filter" id="product-filter">
+              <option>Price</option>
+              <option>Title</option>
+              <option>Remaining</option>
+              <option>Seller</option>
+            </select>
+        </form>
         <ul class="product-items">
         </ul>
 			</div>
