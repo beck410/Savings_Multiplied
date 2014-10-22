@@ -358,9 +358,12 @@ footer ul {
   float: left;
 }
 
-.product-items li:nth-child(5n){
+.product-items li:nth-child(5){
   clear: left;
-  margin-right: 0;
+}
+
+.product-items span {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
